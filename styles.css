@@ -21,14 +21,14 @@ html {
 /*             UTILIDADES             */
 /* ********************************** */
 .container {
-	max-width: 120rem;
+	max-width: 1250px;
 	margin: 0 auto;
 }
 
 .heading-1 {
 	text-align: center;
 	font-weight: 500;
-	font-size: 3rem;
+	font-size: 30px;
 }
 
 /* ********************************** */
@@ -42,17 +42,17 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 0;
+	padding: 30px ;
 }
 
 .customer-support {
 	display: flex;
 	align-items: center;
-	gap: 2rem;
+	gap: 10px;
 }
 
 .customer-support i {
-	font-size: 3.3rem;
+	font-size: 40px;
 }
 
 .content-customer-support {
@@ -63,38 +63,38 @@ html {
 .container-logo {
 	display: flex;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 5px;
 }
 
 .container-logo i {
-	font-size: 3rem;
+	font-size: 30px;
 }
 
 .container-logo h1 a {
 	text-decoration: none;
 	color: #000;
-	font-size: 3rem;
+	font-size: 30px;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 }
 
 .container-user {
 	display: flex;
-	gap: 1rem;
+	gap: 10px;
 	cursor: pointer;
 }
 
 .container-user .fa-user {
 	font-size: 3rem;
 	color: var(--primary-color);
-	padding-right: 2.5rem;
+	padding-right: 25px;
 	border-right: 1px solid #e2e2e2;
 }
 
 .container-user .fa-basket-shopping {
-	font-size: 3rem;
+	font-size: 30px;
 	color: var(--primary-color);
-	padding-left: 1rem;
+	padding-left: 10px;
 }
 
 .content-shopping-cart {
