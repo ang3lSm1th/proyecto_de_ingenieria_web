@@ -185,27 +185,29 @@ html {
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('img/banner.jpeg');
-	height: 60rem;
+	height: 600px;
 	background-size: cover;
 	background-position: center;
+	text-align: left;
 }
 
 .content-banner {
-	max-width: 90rem;
+	max-width: 800px;
 	margin: 0 auto;
-	padding: 25rem 0;
+	padding: 0px ;
+	padding-top: 200px;
 }
 
 .content-banner p {
 	color: var(--primary-color);
-	font-size: 1.2rem;
-	margin-bottom: 1rem;
+	font-size: 20px;
+	margin-bottom: 10px;
 	font-weight: 500;
 }
 
 .content-banner h2 {
 	color: #fff;
-	font-size: 3.5rem;
+	font-size: 35px;
 	font-weight: 500;
 	line-height: 1.2;
 }
