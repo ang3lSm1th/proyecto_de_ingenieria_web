@@ -42,18 +42,18 @@
 				<nav class="navbar container">
 					<i class="fa-solid fa-bars"></i>
 					<ul class="menu">
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Visión y Misión</a></li>
-						<li><a href="#">Acerca de nosotros</a></li>
-						<li><a href="#">Carta De Productos</a></li>
-						<li><a href="#">Más</a></li>
+						<li><a href="#inicio">Inicio</a></li>
+						<li><a href="#categorias">Mejores Categorías</a></li>
+						<li><a href="#productos">Mejores productos</a></li>
+						<li><a href="#carta">Carta De Productos</a></li>
+						<li><a href="#blog">Más</a></li>
 					</ul>
 
 
 		</header>
 
 		<section class="banner">
-			<div class="content-banner">
+			<div class="content-banner" id = "inicio">
 				<p>Restobar</p>
 				<h2>100% Calidad <br />Platillos de primera</h2>
 				<a href="#">Comprar ahora</a>
@@ -76,7 +76,7 @@
 						<p>Platillos a precios accesibles</p>
 					</div>
 				</div>
-				<div class="card-feature">
+				<div class="card-feature" id = "categorias">
 					<i class="fa-solid fa-gift"></i>
 					<div class="feature-content">
 						<span>Promociones</span>
@@ -113,7 +113,7 @@
 			<section class="container top-products">
 				<h1 class="heading-1">Mejores Productos</h1>
 
-				<div class="container-options">
+				<div class="container-options" id = "productos">
 					<span class="active">Destacados</span>
 					<span>Más recientes</span>
 					<span>Mejores Vendidos</span>
@@ -277,13 +277,13 @@
 			</section>
 
 			<section class="container newproduct">
-				<h1 class="heading-1">Nuevos Productos</h1>
+				<h1 class="heading-1">Carta de Productos</h1>
 
-				<div class="container-products">
+				<div class="container-products" id = "carta">
 					<!-- Producto 1 -->
 					<div class="card-product">
 						<div class="container-img">
-							<img src="img/cafe-irish.jpg" alt="Cafe Irish" />
+							<img src="img/producto1.jpeg" alt="Cafe Irish" />
 
 							<div class="button-group">
 								<span>
@@ -305,18 +305,18 @@
 								<i class="fa-solid fa-star"></i>
 								<i class="fa-regular fa-star"></i>
 							</div>
-							<h3>Cappuchino</h3>
+							<h3>Bife Argentino</h3>
 							<span class="add-cart">
 								<i class="fa-solid fa-basket-shopping"></i>
 							</span>
-							<p class="price">S/15.00 </p>
+							<p class="price">S/60.00 </p>
 						</div>
 					</div>
 					<!-- Producto 2 -->
 					<div class="card-product">
 						<div class="container-img">
 							<img
-								src="img/cafe-ingles.jpg"
+								src="img/salchiroll.jpg"
 								alt="Cafe incafe-ingles.jpg"
 							/>
 
@@ -340,17 +340,17 @@
 								<i class="fa-regular fa-star"></i>
 								<i class="fa-regular fa-star"></i>
 							</div>
-							<h3>Ristretto</h3>
+							<h3>Salchiroll</h3>
 							<span class="add-cart">
 								<i class="fa-solid fa-basket-shopping"></i>
 							</span>
-							<p class="price">S/22.00 </p>
+							<p class="price">S/18.00 </p>
 						</div>
 					</div>
 					<!--  -->
 					<div class="card-product">
 						<div class="container-img">
-							<img src="img/cafe-viena.jpg" alt="Cafe Viena" />
+							<img src="img/alitasbufalo.jpg" alt="Cafe Viena" />
 
 							<div class="button-group">
 								<span>
@@ -372,17 +372,17 @@
 								<i class="fa-solid fa-star"></i>
 								<i class="fa-solid fa-star"></i>
 							</div>
-							<h3>Latte Machiato</h3>
+							<h3>Alitas Bufalo</h3>
 							<span class="add-cart">
 								<i class="fa-solid fa-basket-shopping"></i>
 							</span>
-							<p class="price">S/10.00 </p>
+							<p class="price">S/22.00 </p>
 						</div>
 					</div>
 					<!--  -->
 					<div class="card-product">
 						<div class="container-img">
-							<img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" />
+							<img src="img/salmon.jpg" alt="Cafe Liqueurs" />
 							<div class="button-group">
 								<span>
 									<i class="fa-regular fa-eye"></i>
@@ -403,23 +403,23 @@
 								<i class="fa-solid fa-star"></i>
 								<i class="fa-regular fa-star"></i>
 							</div>
-							<h3>Flat White</h3>
+							<h3>Salmon</h3>
 							<span class="add-cart">
 								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">S/12.00</p>
+							</span>	
+							<p class="price">S/50.00</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="container blogs">
-				<h1 class="heading-1">Últimos Blogs</h1>
+				<h1 class="heading-1">Últimas Novedades</h1>
 
-				<div class="container-blogs">
+				<div class="container-blogs"  id="blog">
 					<div class="card-blog">
 						<div class="container-img">
-							<img src="img/blog-1.jpg" alt="Imagen Blog 1" />
+							<img src="img/ALITAS.NOVEDAD.jpg" alt="Imagen Blog 1" />
 							<div class="button-group-blog">
 								<span>
 									<i class="fa-solid fa-magnifying-glass"></i>
@@ -430,21 +430,22 @@
 							</div>
 						</div>
 						<div class="content-blog">
-							<h3>Lorem, ipsum dolor sit</h3>
-							<span>29 Noviembre 2022</span>
+							<h3>Promociones</h3>
+							<span>Lunes a jueves</span>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing
-								elit. Iste, molestiae! Ratione et, dolore ipsum
-								quaerat iure illum reprehenderit non maxime amet dolor
-								voluptas facilis corporis, consequatur eius est sunt
-								suscipit?
+								🌟 Dejate sorprender con los tragos de autor 🍹 y 
+								los cócteles clásicos que tenemos para tí.Ademas de la
+								mejor barra libre de alitas 🍗👉🏾Disfrútalas a S/29.90 de 
+								Lunes a Juevesde 4:00pm a 8:00pm 😉Visítanos en: 📍 
+								Av. San Martín Zn B Mz I Lt 02-A A media cuadra del 
+								paradero La Cruz 
 							</p>
 							<div class="btn-read-more">Leer más</div>
 						</div>
 					</div>
 					<div class="card-blog">
 						<div class="container-img">
-							<img src="img/blog-2.jpg" alt="Imagen Blog 2" />
+							<img src="img/invitado.jpg" alt="Imagen Blog 2" />
 							<div class="button-group-blog">
 								<span>
 									<i class="fa-solid fa-magnifying-glass"></i>
@@ -455,21 +456,24 @@
 							</div>
 						</div>
 						<div class="content-blog">
-							<h3>Lorem, ipsum dolor sit</h3>
-							<span>29 Noviembre 2022</span>
+							<h3>Invitado especial</h3>
+							<span>24 Mayo 2024</span>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing
-								elit. Iste, molestiae! Ratione et, dolore ipsum
-								quaerat iure illum reprehenderit non maxime amet dolor
-								voluptas facilis corporis, consequatur eius est sunt
-								suscipit?
+								Este 𝗩𝗶𝗲𝗿𝗻𝗲𝘀 𝟮𝟰 😎🥳 desde las 𝟬𝟴:𝟯𝟬𝗣𝗠  en ✨El Origen ✨
+								🚨Música en vivo con el gran 𝗠𝗶𝗴𝘂𝗲𝗹 𝗩𝗮𝗹𝗹𝗲𝗷𝗼 🎶 Disfruta del 
+								show en vivo y los tragos 🍹 de tu CofeeBar Favorito😎
+								😎 ¡No te quedes fuera de esta increíble noche! Invita a tus amigos, 
+								familiares y seres queridos para vivir juntos una experiencia inolvidable. 
+								¡Te esperamos! 🤩📌Visítanos en: Av San Martín MZ I Lote 02-A Zona B
+								Tambo Viejo, Lima, Peru a media cuadra del Paradero "La Cruz"
+								𝗧𝗲 𝗲𝘀𝗽𝗲𝗿𝗮𝗺𝗼𝘀❗❗🥳🎉
 							</p>
 							<div class="btn-read-more">Leer más</div>
 						</div>
 					</div>
 					<div class="card-blog">
 						<div class="container-img">
-							<img src="img/blog-3.jpg" alt="Imagen Blog 3" />
+							<img src="img/INAGURACION.jpg" alt="Imagen Blog 3" />
 							<div class="button-group-blog">
 								<span>
 									<i class="fa-solid fa-magnifying-glass"></i>
@@ -480,14 +484,16 @@
 							</div>
 						</div>
 						<div class="content-blog">
-							<h3>Lorem, ipsum dolor sit</h3>
-							<span>29 Noviembre 2022</span>
+							<h3>Gran Reinaguración</h3>
+							<span>27 Abril 2024</span>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing
-								elit. Iste, molestiae! Ratione et, dolore ipsum
-								quaerat iure illum reprehenderit non maxime amet dolor
-								voluptas facilis corporis, consequatur eius est sunt
-								suscipit?
+								Gran Reinaguración 🥳 ´´𝗘𝗟 𝗢𝗥𝗜𝗚𝗘𝗡´´ 🎉
+								🌟¡Estamos a punto de abrir nuestras puertas!🌟 
+								y estamos muy contentos, los esperamos desde las 
+								8pm con muchas promociones, juegos y DJ en Vivo!
+								Visítanos en: 
+								📍 Av. San Martín Zn B Mz I Lt 02-A 
+								A media cuadra del paradero La Cruz
 							</p>
 							<div class="btn-read-more">Leer más</div>
 						</div>
@@ -558,7 +564,7 @@
 
 				<div class="copyright">
 					<p>
-						Desarrollado por Angel Sanchez &copy; 2024
+						Desarrollado por Grupo 2 - UCV  &copy; 2024
 					</p>
 
 					<img src="img/payment.png" alt="Pagos">

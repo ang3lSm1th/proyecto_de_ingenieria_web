@@ -9,6 +9,7 @@
 html {
 	font-size: 62.5%;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 
 * {
@@ -44,12 +45,14 @@ html {
 	align-items: center;
 	padding: 30px ;
 	
+	
 }
 
 .customer-support {
 	display: flex;
 	align-items: center;
 	gap: 20px;
+	
 }
 
 .customer-support i {
@@ -80,6 +83,7 @@ html {
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	
+	
 }
 
 .container-user {
@@ -95,6 +99,7 @@ html {
 	padding-right: 25px;
 	border-right: 1px solid #e2e2e2;
 	
+	
 }
 
 .container-user .fa-basket-shopping {
@@ -102,11 +107,13 @@ html {
 	color: var(--primary-color);
 	padding-left: 10px;
 	
+	
 }
 
 .content-shopping-cart {
 	display: flex;
 	flex-direction: column;
+	
 	
 }
 
@@ -121,13 +128,11 @@ html {
 	align-items: center;
 	padding: 10px ;
 	justify-content: center;
-
-	
+		
 }
 
 .navbar .fa-bars {
 	display: none;
-	
 }
 
 .menu {
