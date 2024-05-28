@@ -599,23 +599,24 @@ html {
 .blogs {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 20px;
 }
 
 .container-blogs {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
+	gap: 30px;
+	margin: 30px 0 50px;
 }
 
 .card-blog {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 20px;
 }
 
 .card-blog .container-img {
-	border-radius: 2rem;
+	border-radius: 20px;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
@@ -623,23 +624,23 @@ html {
 
 .button-group-blog {
 	position: absolute;
-	bottom: 1.5rem;
-	right: -2.5rem;
+	bottom: 15px;
+	right: -250px;
 
 	display: flex;
-	gap: 0.7rem;
+	gap: 7px;
 	z-index: -1;
 	transition: all 0.3s ease;
 }
 
 .card-blog:hover .button-group-blog {
 	z-index: 0;
-	right: 1.5rem;
+	right: 15px;
 }
 
 .button-group-blog span {
 	background-color: #fff;
-	padding: 1rem;
+	padding: 10px;
 	border-radius: 50%;
 	transition: all 0.4s ease;
 
@@ -649,7 +650,7 @@ html {
 }
 
 .button-group-blog span i {
-	font-size: 1.3rem;
+	font-size: 13px;
 }
 
 .button-group-blog span:hover {
@@ -661,8 +662,8 @@ html {
 }
 
 .content-blog h3 {
-	font-size: 1.8rem;
-	margin-bottom: 1.7rem;
+	font-size: 18px;
+	margin-bottom: 17px;
 	color: var(--dark-color);
 	font-weight: 500;
 }
@@ -674,29 +675,13 @@ html {
 
 .content-blog p {
 	margin-top: 1rem;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #777;
 }
 
 .content-blog span {
 	color: var(--primary-color);
-	font-size: 1.3rem;
-}
-
-.btn-read-more {
-	padding: 1rem 3rem;
-	background-color: var(--primary-color);
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	border-radius: 2rem;
-	margin: 3rem 0 5rem;
-	display: inline-block;
-	cursor: pointer;
-}
-
-.btn-read-more:hover {
-	background-color: var(--dark-color);
+	font-size: 13px;
 }
 
 /* ********************************** */
@@ -711,19 +696,19 @@ html {
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
-	padding: 3rem;
+	padding: 30px;
 }
 
 .menu-footer {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr) 30rem;
-	gap: 3rem;
+	grid-template-columns: repeat(2,1fr) 400px;
+	gap: 30px;
 	justify-items: center;
 }
 
 .title-footer {
 	font-weight: 600;
-	font-size: 1.6rem;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
@@ -799,6 +784,14 @@ html {
 		#f56040,
 		#fcaf45
 	);
+}
+
+.facebook {
+	background-color: #334dc0;
+}
+
+.tiktok {
+	background-color: #000000;
 }
 
 .content p {
