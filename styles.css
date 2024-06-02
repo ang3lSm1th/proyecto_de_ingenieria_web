@@ -94,7 +94,7 @@ html {
 }
 
 .container-user .fa-user {
-	font-size: 3rem;
+	font-size: 30px;
 	color: var(--primary-color);
 	padding-right: 25px;
 	border-right: 1px solid #e2e2e2;
